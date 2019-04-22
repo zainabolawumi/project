@@ -1,0 +1,91 @@
+#service{
+    margin-bottom:10px;
+}
+#image-style{
+    border: 7px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#art{
+    /* font-family: 'ZCOOL KuaiLe', cursive; */
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+}
+
+
+#fab{
+    display: inline-block;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    padding: 7px;
+    background: rgb(112, 112, 223);
+    color:white;
+}
+#colm{
+    color:rgb(112, 112, 223);
+}
+
+#left{
+    display: inline-block;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    padding: 7px;
+    background: rgb(112, 112, 223);
+    color:white;
+    margin-right:50px;
+    text-decoration: none;
+}
+
+#right{
+    display: inline-block;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    padding: 7px;
+    background: rgb(112, 112, 223);
+    color:white;
+    text-decoration: none;
+    margin-left: 500%;
+}
+
+#middle{
+    margin-left: 450px;
+}
+#tv{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    margin: 20px 0;
+    background:lightgray;
+    border-radius: 50% / 10%;
+    color:rgb(48, 48, 228);;
+    text-align: center;
+    font-size: 40px;
+}
+.school{
+    display: block;
+    margin-bottom: 50px;
+    animation-name: rotatingText;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    color:lightcyan;
+    background: linear-gradient(45deg, rgb(48, 48, 228),rgb(255, 0, 13),yellow)
+}
+@keyframes rotatingText{
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+#triangle-right{
+    width: 0;
+    height: 0;
+    border-top:10px solid transparent;
+    border-left:20px solid lightgray;
+    border-bottom: 10px solid transparent;
+}
